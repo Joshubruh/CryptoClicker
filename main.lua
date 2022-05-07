@@ -1,25 +1,23 @@
 function love.load()
     score = 0
-    buttonLocY = 255
-    buttonLocX = 550
-    buttonScaleX = 200
-    buttonScaleY = 100
+    buttonLocY = 520
+    buttonLocX = 285
+    buttonScaleX = 250
+    buttonScaleY = 75
 
     buttonText = love.graphics.newFont("Prototype.ttf", 20)
     scoreText = love.graphics.newFont("Prototype.ttf", 48)
     bg = love.graphics.newImage("btcTitle.png")
+    buttonClick = love.graphics.newImage("minebutton2.png")
 end
 
 function love.draw()  -- Draws objects to screen
+
+    love.graphics.setColor(0,0,0)
+    love.graphics.setColor(1,1,1)
+
     love.graphics.draw(bg, 0, 0)
-
-    love.graphics.setColor(5, 10, 0)
-    square = love.graphics.rectangle("fill", buttonLocX, buttonLocY, buttonScaleX, buttonScaleY)
-
-    -- Draws the button to click and the text on top of the button
-    love.graphics.setFont(buttonText)
-    love.graphics.setColor(0, 0, 0)
-    love.graphics.print("Click to mine BitCoin!", 556, 290, 0)
+    love.graphics.draw(buttonClick, buttonLocX, buttonLocY, 0, 0.5, 0.5)
 
     -- Draws score text
     love.graphics.setFont(scoreText)

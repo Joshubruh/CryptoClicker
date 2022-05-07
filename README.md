@@ -5,8 +5,10 @@ KEYBINDS
   Pane Switching
     Shop - Buy upgrades to increase $BTC earned
       s
+      
     Click - Click the mine button to get $BTC
       c
+      
     Hub - Pane Hub, gives info for how to get to each pane if you forget
       h
       
@@ -21,10 +23,13 @@ WHat does Each Upgrade Do?
 
   Scalper Bots (WIP)
     Makes idle profit
+    
   GPU 
     Makes BTC/Click Multiplier higher
+    
   CPU (WIP)
     GPU but on steroids (I know isn't accurate to legitimate BTC mining but eh)
+    
   GPU Quantity (WIP)
     Allows you to have multiple upgradeable GPUs, each adding to the multiplier
   

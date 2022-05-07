@@ -3,6 +3,7 @@ A BTC Miner clicker game developed by Joshubruh and Aslen
 
 KEYBINDS
   Pane Switching
+  
     Shop - Buy upgrades to increase $BTC earned
       s
       

@@ -20,7 +20,7 @@ How to Play:
   
   Basically, get as many BTC as possible by upgrading strategically
   
-WHat does Each Upgrade Do?: 
+What does Each Upgrade Do?: 
 
   Scalper Bots (WIP): 
     Makes idle profit
